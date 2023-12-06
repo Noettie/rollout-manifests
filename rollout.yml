@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: rollout-container
-          image: ooghenekaro/bluegreen-rollout-oct:2
+          image: nottiey/blue-green-rollout:latest
           ports:
             - name: http
               containerPort: 3000
