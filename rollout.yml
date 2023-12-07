@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: rollout-container
-          image: nottiey/blue-green-rollout:2
+          image: nottiey/blue-green-rollout:3
           ports:
             - name: http
               containerPort: 3000
